@@ -11,6 +11,7 @@
     <email>me@example.com</email>
   </author>
   
+  <!-- #1 -->
   <entry>
     <title>Foo Bar</title>
     <link href="https://example.com/blog/2021-02-11-foo-bar/"/>
@@ -23,6 +24,7 @@
 </content>
   </entry>
   
+  <!-- #2 -->
   <entry>
     <title>More Examples</title>
     <link href="https://example.com/blog/2021-01-30-more-examples/"/>
@@ -35,6 +37,7 @@
 </content>
   </entry>
   
+  <!-- #3 -->
   <entry>
     <title>Wow Content</title>
     <link href="https://example.com/blog/2021-02-03-wow-content/"/>
@@ -47,6 +50,7 @@
 </content>
   </entry>
   
+  <!-- #4 -->
   <entry>
     <title>Lorem Ipsum</title>
     <link href="https://example.com/blog/2021-01-27-lorem-ipsum/"/>
@@ -59,6 +63,7 @@
 </content>
   </entry>
   
+  <!-- #5 -->
   <entry>
     <title>Another Thing</title>
     <link href="https://example.com/blog/2021-01-24-another-thing/"/>

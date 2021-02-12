@@ -24,6 +24,7 @@ metadata:
   </author>
   {%- for post in collections.blog | reverse | batch(5) | first %}
   {% set absolutePostUrl = post.url | url | absoluteUrl(metadata.url) %}
+  <!-- #{{ loop.index }} -->
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl | url }}"/>
