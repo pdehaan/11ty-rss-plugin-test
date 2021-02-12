@@ -4,12 +4,24 @@
   <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
   <link href="https://example.com/feed.xml" rel="self"/>
   <link href="https://example.com/"/>
-  <updated>2021-02-07T00:00:00Z</updated>
+  <updated>2021-02-11T08:00:00Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Boaty McBoatFace</name>
     <email>me@example.com</email>
   </author>
+  
+  <entry>
+    <title>Foo Bar</title>
+    <link href="https://example.com/blog/2021-02-11-foo-bar/"/>
+    <updated>2021-02-11T08:00:00Z</updated>
+    <id>https://example.com/blog/2021-02-11-foo-bar/</id>
+    <content type="html">
+&lt;h1&gt;Foo Bar&lt;/h1&gt;
+
+&lt;p&gt;This is some content.&lt;/p&gt;
+</content>
+  </entry>
   
   <entry>
     <title>More Examples</title>
@@ -30,6 +42,18 @@
     <id>https://example.com/blog/2021-02-03-wow-content/</id>
     <content type="html">
 &lt;h1&gt;Wow Content&lt;/h1&gt;
+
+&lt;p&gt;This is some content.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Lorem Ipsum</title>
+    <link href="https://example.com/blog/2021-01-27-lorem-ipsum/"/>
+    <updated>2021-01-27T08:00:00Z</updated>
+    <id>https://example.com/blog/2021-01-27-lorem-ipsum/</id>
+    <content type="html">
+&lt;h1&gt;Lorem Ipsum&lt;/h1&gt;
 
 &lt;p&gt;This is some content.&lt;/p&gt;
 </content>

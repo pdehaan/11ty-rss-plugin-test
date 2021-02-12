@@ -9,7 +9,6 @@ metadata:
   author:
     name: Boaty McBoatFace
     email: me@example.com
-postCount: 3
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
@@ -23,7 +22,7 @@ postCount: 3
     <name>{{ metadata.author.name }}</name>
     <email>{{ metadata.author.email }}</email>
   </author>
-  {%- for post in collections.blog | reverse | slice(2) | first %}
+  {%- for post in collections.blog | reverse | batch(5) | first %}
   {% set absolutePostUrl = post.url | url | absoluteUrl(metadata.url) %}
   <entry>
     <title>{{ post.data.title }}</title>
