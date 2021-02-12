@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>My Blog about Boats</title>
+  <subtitle>I am writing about my experiences as a naval navel-gazer.</subtitle>
+  <link href="https://example.com/feed.xml" rel="self"/>
+  <link href="https://example.com/"/>
+  <updated>2021-02-07T00:00:00Z</updated>
+  <id>https://example.com/</id>
+  <author>
+    <name>Boaty McBoatFace</name>
+    <email>me@example.com</email>
+  </author>
+  
+  <entry>
+    <title>More Examples</title>
+    <link href="https://example.com/blog/2021-01-30-more-examples/"/>
+    <updated>2021-02-07T00:00:00Z</updated>
+    <id>https://example.com/blog/2021-01-30-more-examples/</id>
+    <content type="html">
+&lt;h1&gt;More Examples&lt;/h1&gt;
+
+&lt;p&gt;This is some content.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Wow Content</title>
+    <link href="https://example.com/blog/2021-02-03-wow-content/"/>
+    <updated>2021-02-03T08:00:00Z</updated>
+    <id>https://example.com/blog/2021-02-03-wow-content/</id>
+    <content type="html">
+&lt;h1&gt;Wow Content&lt;/h1&gt;
+
+&lt;p&gt;This is some content.&lt;/p&gt;
+</content>
+  </entry>
+  
+  <entry>
+    <title>Another Thing</title>
+    <link href="https://example.com/blog/2021-01-24-another-thing/"/>
+    <updated>2021-01-24T08:00:00Z</updated>
+    <id>https://example.com/blog/2021-01-24-another-thing/</id>
+    <content type="html">
+&lt;h1&gt;Another Thing&lt;/h1&gt;
+
+&lt;p&gt;This is some content.&lt;/p&gt;
+</content>
+  </entry>
+</feed>
