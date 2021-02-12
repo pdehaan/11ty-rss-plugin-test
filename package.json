@@ -1,17 +1,26 @@
 {
   "name": "11ty-rss-plugin-test",
-  "version": "1.0.0",
   "description": "Testing @11ty/eleventy-plugin-rss w/ sample blog.",
-  "main": "index.js",
-  "scripts": {
-    "build": "eleventy",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
+  "version": "1.0.0",
   "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
-  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-rss-plugin-test/issues"
+  },
+  "dependencies": {},
   "devDependencies": {
     "@11ty/eleventy": "^0.11.1",
     "@11ty/eleventy-plugin-rss": "^1.1.0"
+  },
+  "homepage": "https://github.com/pdehaan/11ty-rss-plugin-test#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-rss-plugin-test.git"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
